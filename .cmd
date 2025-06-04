@@ -16,7 +16,8 @@ inmakes learninghub terminal code
 > python -m venv foldername
 > cd foldername
 > cd Scripts
-> activate
+> .\activate
+> .\activate.bat
 > cd .. => its use to come back of the folder
 > pip install django
 > django-admin
