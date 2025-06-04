@@ -21,4 +21,4 @@ inmakes learninghub terminal code
 > pip install django
 > django-admin
 > djangp-admin startproject project_name .
-> python .\manage.py runserver => its used to run server in web
+> python manage.py runserver => its used to run server in web
