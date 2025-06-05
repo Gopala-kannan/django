@@ -23,3 +23,4 @@ inmakes learninghub terminal code
 > django-admin
 > djangp-admin startproject project_name .
 > python manage.py runserver => its used to run server in web
+> python manage.py makemigrations
