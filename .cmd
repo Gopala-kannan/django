@@ -24,3 +24,19 @@ inmakes learninghub terminal code
 > djangp-admin startproject project_name .
 > python manage.py runserver => its used to run server in web
 > python manage.py makemigrations
+
+
+youtube crud
+
+cmd..
+> pip install packages
+> django-admin --version
+> django-admin startproject employee
+vs code terminal
+> cd employee
+> python manage.py  runserver 8001
+> python manage.py startapp register
+> python manage.py migrate => use to after connect postgresql
+
+> python manage.py makemigrations employee_register
+> python manage.py sqlmigrate employee_register 0001
