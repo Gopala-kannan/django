@@ -40,3 +40,23 @@ vs code terminal
 
 > python manage.py makemigrations employee_register
 > python manage.py sqlmigrate employee_register 0001
+
+// postgreSQl django
+> pip install psycopg2-binary ==> its use to connect and postgreSQl
+> python -m venv virtural_enivronment
+> cd virtural_enivronment
+> cd Scripts
+> activate 
+> cd ..
+> cd ..
+> pip install django
+> django-admin startproject office
+> pip install psycopg2-binary ===> after activate the virtural_enivronment then use to install
+> python manage.py runserver
+> python manage.py startapp employee => create a application 
+> python manage.py makemigrations
+> python manage.py migrate
+> python manage.py createsuperuser => its use to admin user and admin.py
+> python manage.py makemigrations
+> python manage.py migrate
+> python manage.py runserver => use to runserver 
